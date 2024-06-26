@@ -95,17 +95,11 @@ img{
 
 
 
-
-
-
-
-
-
 /*---------------reusable css classes-------------------*/
 
 .container{
     max-width: 1120px;
-    margin-inline: 1.5rem;
+    margin-inline: 0.5rem;
 }
 
 .grid{
@@ -328,7 +322,7 @@ img{
 
 /*======================home========================*/
 .home__container{
-    padding-top: 2rem;
+    padding-top: 0rem;
 }
 
 .home__name{
@@ -413,7 +407,7 @@ img{
     margin-top: 4rem;
 }
 
-.hone__description::after{
+.home__description::after{
     text-align: center;
     color: var(--title-color);
     margin-bottom: 1.5rem;
@@ -598,7 +592,11 @@ img{
     align-items: center;
     column-gap: 1rem;
 }
+
+
 /*=====================skillset======================*/
+
+
 .skillset__container{
     grid-template-columns: 250px;
     justify-content: center;
@@ -720,7 +718,7 @@ img{
 .project__buttons{
     display: flex;
     align-items: center;
-    column-gap: 1rem;
+    column-gap: 0.25rem;
 }
 
 .project__link{
